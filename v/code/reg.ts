@@ -20,8 +20,10 @@ export class complete_lv1_registration
     implements mod.questionnaire
 {
     //
+    // The mutall user.
     public user?:outlook.user;
     //
+    //database 
     public dbname = 'mutall_users';
     //
     //construct the reg class
